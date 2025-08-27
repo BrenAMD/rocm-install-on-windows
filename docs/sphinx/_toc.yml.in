@@ -1,0 +1,21 @@
+defaults:
+  numbered: False
+  maxdepth: 6
+root: index
+subtrees:
+- entries:
+    - file: reference/component-support
+      title: Component support
+    - file: how-to/install
+      title: Install HIP SDK
+    - file: reference/system-requirements
+      title: System requirements
+    - file: reference/limitations
+      title: Limitations
+
+- caption: Conceptual
+  entries:
+  - file: conceptual/deployment-guidelines
+    title: Deployment guidelines
+  - file: conceptual/release-versioning
+    title: Release versioning
